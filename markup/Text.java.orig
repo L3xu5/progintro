@@ -1,0 +1,24 @@
+package markup;
+
+public class Text implements Include {
+    private String text = "";
+
+<<<<<<< HEAD
+    public Text(String text) {
+        super();
+=======
+    Text(String text) {
+>>>>>>> d8c4a7d66ad53ac3a87c2eb8be03c4ae118c2569
+        this.text = text;
+    }
+
+    @Override
+    public void toMarkdown(StringBuilder sb) {
+        sb.append(text);
+    }
+    @Override
+    public void toBBCode(StringBuilder sb) {
+        sb.append(text);
+    }
+
+}
